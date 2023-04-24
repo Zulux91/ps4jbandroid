@@ -3,6 +3,6 @@
     "latestVersionCode": 361,
     "url": "https://github.com/Zulux91/ps4jbandroid/releases/latest",
     "releaseNotes": [
-      "- Fixed USB Mounting for some devices with CONFIGFS backend"
+      "- No code change. Only Goldhen updated to 2.4b13 and exploit scripts updated."
     ]
 }
