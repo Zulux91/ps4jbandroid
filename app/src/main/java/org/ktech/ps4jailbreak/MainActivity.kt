@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
         appUpdater = AppUpdater(this)
         appUpdater.setUpdateFrom(UpdateFrom.JSON)
-        appUpdater.setUpdateJSON("https://raw.githubusercontent.com/rareranger/ps4jbandroid/master/update-changelog.json")
+        appUpdater.setUpdateJSON("https://raw.githubusercontent.com/Zulux91/ps4jbandroid/master/update-changelog.json")
         appUpdater.start()
 
         //Get app preferences
