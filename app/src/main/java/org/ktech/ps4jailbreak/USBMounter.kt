@@ -171,6 +171,8 @@ class USBMounter {
                     onLogMessage(msg)
                 }
             }
+
+            else -> {}
         }
     }
 

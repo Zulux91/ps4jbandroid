@@ -386,6 +386,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     }
 
     //Respond to file being picked from file picker
+    @Deprecated("Deprecated in Java")
     @RequiresApi(Build.VERSION_CODES.KITKAT)
     override fun onActivityResult(
             requestCode: Int, resultCode: Int, resultData: Intent?) {

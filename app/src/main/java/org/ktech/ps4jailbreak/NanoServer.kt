@@ -72,8 +72,11 @@ class NanoServer(current: Context): NanoHTTPD(8080) {
                     requestURL.endsWith(".js") -> {
                         return NanoHTTPD.Response(NanoHTTPD.Response.Status.OK, "text/javascript ", getResourceAsText(path))
                     }
-                    requestURL.endsWith(".cache") -> {
+                    requestURL.endsWith(".bin") -> {
                         return NanoHTTPD.Response(NanoHTTPD.Response.Status.OK, "text/cache-manifest", getResourceAsText(path))
+                    }
+                    requestURL.endsWith(".cache") -> {
+                        return NanoHTTPD.Response(NanoHTTPD.Response.Status.OK, "application/octet-stream", getResourceAsText(path))
                     }
                 }
             }

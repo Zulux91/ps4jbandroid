@@ -1,18 +1,19 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
-    compileSdkVersion 31
-    buildToolsVersion "31.0.0"
+    compileSdkVersion 33
+    buildToolsVersion "33.0.0"
 
     defaultConfig {
         applicationId "org.ktech.ps4jailbreak"
         minSdkVersion 16
-        targetSdkVersion 31
-        versionCode 34
-        versionName '3.4'
+        targetSdkVersion 33
+        versionCode 361
+        versionName '3.6.1'
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -34,6 +35,7 @@ android {
     packagingOptions {
         exclude 'META-INF/*'
     }
+    namespace 'org.ktech.ps4jailbreak'
 }
 
 dependencies {
