@@ -1,6 +1,6 @@
 {
-    "latestVersion": "3.4",
-    "latestVersionCode": 34,
+    "latestVersion": "3.6.1",
+    "latestVersionCode": 361,
     "url": "https://github.com/Zulux91/ps4jbandroid/releases/latest",
     "releaseNotes": [
       "- Fixed USB Mounting for some devices with CONFIGFS backend"
